@@ -107,7 +107,7 @@ a:hover{
 /*comienza una nueva seccion*/
 
 section{
-    background: url("https://images.unsplash.com/photo-1553531087-b25a0b9a68ab?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    background:linear-gradient(to bottom, #0b8494d9 , #52a82176), url("https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
     background-size: cover;
     height: 100vh;
 }
