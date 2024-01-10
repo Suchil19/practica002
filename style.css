@@ -17,19 +17,24 @@ body{
    
     /*
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /*
+    */
 }
 
+:root{
+    --principal: #ffffff;
+    --secundario: #520450;
+    --tercero: #1c1c1c;
+}
 
 nav{
     /* los colores se expresan en hex*/
-    background: #191819;
+    background: var(--tercero);
     height: 83px;
     width: 100%;
 }
 
 label.logo{
-    color: #ffffff;
+    color: var(--principal);
     font-size: 62px;
     padding: 0 100px;
     font-weight: bold;
@@ -149,7 +154,17 @@ section{
     object-fit: cover;
 }
 
+/*Footer*/
+
+footer{
+position: relative;
+background: var(--secundario);
+width: 100%;
+bottom: 0;
+left: 0;
+}
 
 
 
+/* Footer */
 
