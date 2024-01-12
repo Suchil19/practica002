@@ -22,7 +22,7 @@ body{
 
 :root{
     --principal: #ffffff;
-    --secundario: #520450;
+    --secundario: #161616;
     --tercero: #1c1c1c;
     --color-facebook: #1212dd;
     --color-twitter: #000000;
@@ -172,7 +172,7 @@ footer::before{
     left: 0;
     top: 100px;
     width: 100%;
-    background: var(--principal);
+    background: #ffffff91 !important;
 }
 
 footer .content{
@@ -222,11 +222,21 @@ footer .content .top{
     color: var(--color-twitter);
 }
 
+/*Martes*/
 footer .content .link-boxes{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-/* Footer */
+footer .content .link-boxes .box{
+    width: calc(100% / 5 - 10px);
+}
 
+.content .link-boxes .box .link-name{
+    color: var(--principal);
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+}
