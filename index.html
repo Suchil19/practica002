@@ -6,7 +6,9 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
+    <!--Incluyendo Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -27,6 +29,9 @@
     <section> 
 
     </section>
+
+    <!--Aqui va el carrousell-->
+    
 
     <!--Aqui comienza la siguiente sección de tarjetas-->
     <div class="card-list">
@@ -61,6 +66,45 @@
     </div>
 
 
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://plus.unsplash.com/premium_photo-1669562729042-b0a3d23afcf1?q=80&w=1253&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://plus.unsplash.com/premium_photo-1669562729042-b0a3d23afcf1?q=80&w=1253&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://plus.unsplash.com/premium_photo-1669562729042-b0a3d23afcf1?q=80&w=1253&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
 <!--Aqui comienza el footer-->
 <footer>
     <div class="content">
@@ -81,28 +125,28 @@
  
       <div class="link-boxes">
         <ul class="box">
-          <li class="link_name">Compañia</li>
+          <li class="link-name">Compañia</li>
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Contacto</a></li>
           <li><a href="#">Acerca de</a></li>
           <li><a href="#">Cmienza</a></li>
         </ul>
         <ul class="box">
-          <li class="link_name">Servicios</li>
+          <li class="link-name">Servicios</li>
           <li><a href="#">App design</a></li>
           <li><a href="#">Web design</a></li>
           <li><a href="#">Logo design</a></li>
           <li><a href="#">Banner design</a></li>
         </ul>
         <ul class="box">
-          <li class="link_name">Cuenta</li>
+          <li class="link-name">Cuenta</li>
           <li><a href="#">Perfil</a></li>
           <li><a href="#">Mi cuenta</a></li>
           <li><a href="#">Preferencias</a></li>
           <li><a href="#">Purchase</a></li>
         </ul>
         <ul class="box">
-          <li class="link_name">Cursos</li>
+          <li class="link-name">Cursos</li>
           <li><a href="#">HTML & CSS</a></li>
           <li><a href="#">JavaScript</a></li>
           <li><a href="#">C</a></li>
@@ -124,6 +168,8 @@
     </div>
   </footer>
 <!--Aqui termina mi footer-->
+
+
 
 </body>
 </html>
